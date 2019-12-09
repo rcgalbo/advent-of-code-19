@@ -33,7 +33,7 @@ def move(instruction: str, cursor: Tuple[int,int]):
 class Wire:
     instructions: List[str]
     points: Set[Tuple[int,int]]
-    step_counter: Dict 
+    step_counter: Dict
 
     def build_path(self):
         """construct path from wire instructions"""
